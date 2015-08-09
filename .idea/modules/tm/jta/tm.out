@@ -1,0 +1,106 @@
+15-07-24 21:54:21,454 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.soap_commit_protocols = atomikos,wsat
+15-07-24 21:54:21,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.console_file_name = tm.out
+15-07-24 21:54:21,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.console_file_count = 1
+15-07-24 21:54:21,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.automatic_resource_registration = true
+15-07-24 21:54:21,462 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.client_demarcation = false
+15-07-24 21:54:21,462 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.soap_request_threads = 1
+15-07-24 21:54:21,462 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.threaded_2pc = true
+15-07-24 21:54:21,462 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.soap_host_address = 10.199.66.60
+15-07-24 21:54:21,463 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.serial_jta_transactions = true
+15-07-24 21:54:21,463 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.log_base_dir = tm/log
+15-07-24 21:54:21,463 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.console_log_level = DEBUG
+15-07-24 21:54:21,463 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.max_actives = 50
+15-07-24 21:54:21,463 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.soap_port = 8088
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.checkpoint_interval = 500
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.enable_logging = false
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.lock_logs = false
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.output_dir = tm/jta
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.log_base_name = tmlog
+15-07-24 21:54:21,464 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.console_file_limit = -1
+15-07-24 21:54:21,465 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.max_timeout = 30000000
+15-07-24 21:54:21,465 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+15-07-24 21:54:21,465 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.tm_unique_name = lift_tm
+15-07-24 21:54:21,465 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING java.naming.provider.url = rmi://localhost:1099
+15-07-24 21:54:21,465 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+15-07-24 21:54:21,466 [main-ScalaTest-running-WxBhvLoadReferrerTest] USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+15-07-24 21:54:21,571 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction() returning NULL!
+15-07-24 21:54:21,587 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entering state: ACTIVE
+15-07-24 21:54:21,588 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entered state: ACTIVE
+15-07-24 21:54:21,592 [main-ScalaTest-running-WxBhvLoadReferrerTest] TaskManager: initializing...
+15-07-24 21:54:21,592 [main-ScalaTest-running-WxBhvLoadReferrerTest] THREADS: using JDK thread pooling...
+15-07-24 21:54:21,595 [main-ScalaTest-running-WxBhvLoadReferrerTest] THREADS: using executor class com.atomikos.icatch.imp.thread.Java15ExecutorFactory$Executor
+15-07-24 21:54:21,595 [main-ScalaTest-running-WxBhvLoadReferrerTest] (1.5) executing task: com.atomikos.timing.PooledAlarmTimer@33fe57a9
+15-07-24 21:54:21,595 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadFactory: creating new thread: Atomikos:0
+15-07-24 21:54:21,596 [main-ScalaTest-running-WxBhvLoadReferrerTest] Creating composite transaction: lift_tm0000100001
+15-07-24 21:54:21,601 [main-ScalaTest-running-WxBhvLoadReferrerTest] createCompositeTransaction ( 300000 ): created new ROOT transaction with id lift_tm0000100001
+15-07-24 21:54:22,285 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXADataSourceBean: getConnection...
+15-07-24 21:54:22,304 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXADataSourceBean: initializing with [ uniqueResourceName=NONXADBMS, maxPoolSize=20, minPoolSize=20, borrowConnectionTimeout=60, maxIdleTime=60, reapTimeout=300, maintenanceInterval=60, testQuery=null, driverClassName=org.h2.jdbcx.JdbcDataSource, user=sa, url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb]
+15-07-24 21:54:22,306 [main-ScalaTest-running-WxBhvLoadReferrerTest] ConnectionPool: initializing...
+15-07-24 21:54:23,432 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,432 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,433 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,433 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,433 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,433 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,434 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,434 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,434 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,434 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,435 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,435 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,435 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,435 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,436 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,436 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,437 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,437 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,437 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,438 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener ConnectionPool
+15-07-24 21:54:23,438 [main-ScalaTest-running-WxBhvLoadReferrerTest] (1.5) executing task: com.atomikos.timing.PooledAlarmTimer@5c089b2f
+15-07-24 21:54:23,438 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadFactory: creating new thread: Atomikos:1
+15-07-24 21:54:23,439 [main-ScalaTest-running-WxBhvLoadReferrerTest] ConnectionPool: cannot grow pool as it reached max size: 20
+15-07-24 21:54:23,439 [main-ScalaTest-running-WxBhvLoadReferrerTest] ConnectionPool: current size: 20/20
+15-07-24 21:54:23,439 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: updating last time acquired
+15-07-24 21:54:23,439 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: no test query, skipping test
+15-07-24 21:54:23,439 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: creating connection proxy...
+15-07-24 21:54:23,453 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: invoking toString
+15-07-24 21:54:23,453 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: delegating call to toString
+15-07-24 21:54:23,453 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: returning proxy conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA
+15-07-24 21:54:23,453 [main-ScalaTest-running-WxBhvLoadReferrerTest] ConnectionPool: got connection from pool, new size: 20/20
+15-07-24 21:54:23,453 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXAPooledConnection: registering listener AtomikosNonXADataSourceBean
+15-07-24 21:54:23,459 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: invoking prepareStatement
+15-07-24 21:54:23,459 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,460 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entering state: ACTIVE
+15-07-24 21:54:23,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entered state: ACTIVE
+15-07-24 21:54:23,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] addParticipant ( com.atomikos.jdbc.nonxa.AtomikosNonXAParticipant@69eb86b4 ) for transaction lift_tm0000100001
+15-07-24 21:54:23,461 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: delegating call to prepareStatement
+15-07-24 21:54:23,560 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: invoking close
+15-07-24 21:54:23,560 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,561 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection: not reusable yet
+15-07-24 21:54:23,722 [main-ScalaTest-running-WxBhvLoadReferrerTest] AtomikosNonXADataSourceBean: getConnection...
+15-07-24 21:54:23,728 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: invoking prepareStatement
+15-07-24 21:54:23,728 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,728 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: delegating call to prepareStatement
+15-07-24 21:54:23,777 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection proxy for connection conn0: url=jdbc:h2:file:/Users/andreas/Documents/devroot/playground/lift_26_sbt/scala_211/lift_dbflute/target/scala-2.11/classes/exampledb/exampledb user=SA: invoking close
+15-07-24 21:54:23,777 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,777 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadLocalConnection: not reusable yet
+15-07-24 21:54:23,849 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,849 [main-ScalaTest-running-WxBhvLoadReferrerTest] getCompositeTransaction()  returning instance with id lift_tm0000100001
+15-07-24 21:54:23,851 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entering state: ABORTING
+15-07-24 21:54:23,851 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entered state: ABORTING
+15-07-24 21:54:23,852 [main-ScalaTest-running-WxBhvLoadReferrerTest] (1.5) executing task: com.atomikos.icatch.imp.Propagator$PropagatorThread@4784013e
+15-07-24 21:54:23,853 [main-ScalaTest-running-WxBhvLoadReferrerTest] ThreadFactory: creating new thread: Atomikos:2
+15-07-24 21:54:23,853 [Atomikos:2] ThreadLocalConnection: rolling back on connection...
+15-07-24 21:54:23,854 [Atomikos:2] ThreadLocalConnection: detected reusability
+15-07-24 21:54:23,854 [Atomikos:2] AtomikosNonXAPooledConnection: notifying listener: ConnectionPool
+15-07-24 21:54:23,854 [Atomikos:2] ConnectionPool: connection AtomikosNonXAPooledConnection became available, notifying potentially waiting threads
+15-07-24 21:54:23,854 [Atomikos:2] AtomikosNonXAPooledConnection: notifying listener: AtomikosNonXADataSourceBean
+15-07-24 21:54:23,854 [Atomikos:2] AtomikosNonXADataSourceBean: onXPooledConnectionTerminated...
+15-07-24 21:54:23,855 [Atomikos:2] AtomikosNonXAPooledConnection: unregistering listener AtomikosNonXADataSourceBean
+15-07-24 21:54:23,856 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entering state: TERMINATED
+15-07-24 21:54:23,857 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 : stopping timer...
+15-07-24 21:54:23,857 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 : disposing statehandler TERMINATED...
+15-07-24 21:54:23,857 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 : disposed.
+15-07-24 21:54:23,858 [main-ScalaTest-running-WxBhvLoadReferrerTest] Coordinator lift_tm0000100001 entered state: TERMINATED
+15-07-24 21:54:23,858 [main-ScalaTest-running-WxBhvLoadReferrerTest] rollback() done of transaction lift_tm0000100001
+15-07-24 21:54:23,863 [Thread-1] Transaction Service: Entering shutdown ( true )...
